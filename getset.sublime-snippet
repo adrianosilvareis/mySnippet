@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+public function set${1:nome}(\$${2:nome}){
+	\$this->${2:nome} = \$${2:nome};
+}
+
+public function get${1:nome}(){
+	return \$this->${2:nome};
+}
+]]></content>
+	 <tabTrigger>getset</tabTrigger> -->
+	 <scope>source.php</scope> -->
+</snippet>

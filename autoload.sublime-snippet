@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+function __autoload(\$class_name){
+	require_once '${1:pasta}/'.\$class_name.'php';
+}
+]]></content>
+	<tabTrigger>autoload</tabTrigger> -->
+	<scope>source.php</scope> -->
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$${1:object} = new ${1:object}();
+]]></content>
+	<tabTrigger>newo</tabTrigger> -->
+	<scope>source.php</scope> -->
+</snippet>
